@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+}
+
+h1 {
+    margin-bottom: 80px;
+}
+
+p {
+
+}
+
+
+@media(max-width: 700px) {
+    #time {
+        font-size: 6rem;
+    }
+}
+
+#effect {
+    font-weight: bold;
+}
+
+a:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+}
