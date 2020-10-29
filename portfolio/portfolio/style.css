@@ -44,6 +44,27 @@ h1 {
 	text-decoration: none;
 }
 
+.fa-arrow-right {
+	transition: 0.70s;
+	-webkit-transition: 0.70s;
+	-moz-transition: 0.70s;
+	-ms-transition: 0.70s;
+	-o-transition: 0.70s;
+}
+
+.button:hover .fa-arrow-right {
+	transition: 0.70s;
+	-webkit-transition: 0.70s;
+	-moz-transition: 0.70s;
+	-ms-transition: 0.70s;
+	-o-transition: 0.70s;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
 .home-content {
     text-align: center;
 }
@@ -393,26 +414,7 @@ nav {
 	-o-transition: 0.70s;
 }
 
-.fa-arrow-right {
-	transition: 0.70s;
-	-webkit-transition: 0.70s;
-	-moz-transition: 0.70s;
-	-ms-transition: 0.70s;
-	-o-transition: 0.70s;
-}
 
-.fa-arrow-right:hover {
-	transition: 0.70s;
-	-webkit-transition: 0.70s;
-	-moz-transition: 0.70s;
-	-ms-transition: 0.70s;
-	-o-transition: 0.70s;
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	transform: rotate(90deg);
-}
 
 @media only screen and (max-width: 850px) {
 	#my-profile-pic {
