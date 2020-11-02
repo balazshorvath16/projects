@@ -90,13 +90,14 @@ h1 {
 
 .navigation-bar {
 	background: #1b242f;
-
+	
 	
 }
 
-.navbar {
+
+.collapse {
 	display: flex;
-	justify-content: right;
+	justify-content: space-between;
 }
 
 nav {
@@ -115,11 +116,14 @@ nav {
 	background-color: white;
 	text-align: center;
 	border-radius: 5px;
-	
-	
-	
+
 }
 
+.flags {
+	display: flex;
+	justify-content: right;
+	text-align: right;
+}
 
 .sticky {
 	position: fixed;
@@ -336,7 +340,12 @@ nav {
 	color: white;
 	margin: 0 20px;
 	padding: 10px 20px;
+	
 }
+
+
+
+	
 
 .experience h1 {
 	text-align: center;
@@ -538,6 +547,21 @@ nav {
 	-o-transition: 0.70s;
 }
 
+@media only screen and (max-width:991px) {
+	.collapse {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.navbar-nav {
+		display: flex;
+		justify-content: center;
+		width: 500px;
+		text-align: center;
+	}
+}
+
 @media only screen and (max-width:930px) {
 	.logos {
 		display: flex;
@@ -603,4 +627,10 @@ nav {
 	  width: 100%;
 	}
 
+  }
+
+  @media only screen and (max-width: 540px) {
+	.collapse {
+		width: 50%;
+	}
   }
