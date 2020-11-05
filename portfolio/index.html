@@ -119,12 +119,11 @@
                   </div>
               
             </div> 
-            
+            <div class="header-arrow" id="arrow" data-aos="fade-up">
+              <a href="#home"><i class="fa fa-arrow-circle-up"></i></a>
+            </div>
         </div>
-            
-        <div class="header-arrow" id="arrow" data-aos="fade-up">
-          <a href="#home"><i class="fa fa-arrow-circle-up"></i></a>
-        </div>
+
         
         <div class="experience" id="experience" data-aos="fade-up">
           <h1>Experience</h1>
@@ -211,19 +210,20 @@
   </script>
   <script src="app.js"></script>
   <script>
-  window.onscroll = function() {myFunction()};
-
-    var header = document.getElementById("navbar");
-    var sticky = header.offsetTop;
+    window.onscroll = function() {myFunction()};
+    
+    var navigation_bar = document.getElementById("navbar");
+    var sticky = navigation_bar.offsetTop;
     
     function myFunction() {
       if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
+        navigation_bar.classList.add("sticky");
       } else {
-        header.classList.remove("sticky");
+        navigation_bar.classList.remove("sticky");
       }
     }
     </script>
+
     <script>
       window.onscroll = function() {myFunction()};
   

@@ -88,11 +88,16 @@ h1 {
 	height: 100vh;
 }
 
-.navigation_bar {
+.sticky {
 	background: #1b242f;
-	
-	
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
+
+.sticky + .scrolling-box {
+	padding-top: 60px;
+  }
 
 
 .collapse {
@@ -125,15 +130,7 @@ nav {
 	text-align: right;
 }
 
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
-  
-  .sticky + .scrolling-box {
-	padding-top: 60px;
-  }
+
 
 .about-me {
 	padding-top: 80px;
