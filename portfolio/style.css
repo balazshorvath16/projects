@@ -449,7 +449,7 @@ nav {
 	background: url(textbg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow-y: scroll;
+	
      scroll-behavior: smooth;
 }
 
@@ -631,8 +631,156 @@ nav {
 	  }
   }
 
-  @media only screen and (max-width: 540px) {
-	.collapse {
-		width: 50%;
+  @media only screen and (max-width: 570px) {
+	.collapse{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	width: 300px;
 	}
   }
+
+  @media only screen and (max-width: 540) {
+	  
+	
+  }
+
+  
+
+
+
+
+
+.navbar {
+	padding: 5px 0;
+}
+.mr-auto, .mx-auto {
+	margin-right: 15px !important;
+}
+
+#navbarSupportedContent .mr-auto, .mx-auto {
+	margin-right: 0px !important;
+}
+
+.flags {
+	margin-right: 20px;
+}
+
+.experience {
+    z-index: 1;
+    overflow: hidden;
+    color: white;
+    margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 0px 40px;
+	max-width: 1040px;
+}
+	.experience ul {
+		margin: 30px auto;
+		max-width: 320px;
+	}
+
+.logos {
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+	margin: 50px auto;
+}
+
+#projects {
+	margin: 50px auto;
+}
+
+
+
+.row {
+	margin-bottom: 35px;
+	max-width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+	.navbar-toggler {
+		margin-right: 10px;
+	}
+		#navbarSupportedContent .flags .navbar-nav {
+			max-width: 300px;
+			border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+		}
+		#navbarSupportedContent .nav-text .navbar-nav {
+			max-width: 300px;
+			border-bottom-left-radius: 0px;
+			border-bottom-right-radius: 0px;
+		}
+	.navbar-collapse {
+		justify-content: center;
+	}
+	.collapse {
+		width: 320px;
+		flex-direction: column;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		height: 230px;
+		flex-direction: column;
+	}
+	.flags {
+		margin-right: 0px;
+	}
+	.collapsing {
+		width: 320px;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: center;
+		transition: 0.30s ease-in;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.about-me-flex-cont {
+		padding: 0 15px;
+	}
+	.card-text {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.about-me-flex-cont {
+		padding: 0 15px;
+	}
+	#description {
+		padding: 0;
+	}
+ }

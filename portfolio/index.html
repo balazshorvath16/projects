@@ -16,6 +16,10 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Balázs Horváth</title>
+    	
+
+	<link rel="stylesheet" type="text/css" href="custom_style.css" />
+
   </head>
   <body>
       <div class="home" id="home">
@@ -34,7 +38,7 @@
   </div>
 
     <div class="navigation-bar" id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" color="white">
               <span class="navbar-toggler-icon"></span>
@@ -155,7 +159,7 @@
               <img src="webstarter.PNG" class="card-img-top" alt="WebPage">
               <div class="card-body">
                 <h5 class="card-title">Web Starter Page</h5>
-                <p class="card-text">A simple little page, which is perfect for a welcoming site for our webpage. Based on JavaScript, the background image and dynamic welcome text depend on the time of the day.</p>
+                <p class="card-text">A simple little page, which is perfect for a welcoming site for our webpage. Based on JavaScript, the background image and dynamic welcome text depend on the time of the day.</p><br>
                 <a href="https://balazshorvath16.github.io/projects/starterpage/" class="btn btn-warning">Check it!</a>
               </div>
             </div>
@@ -206,20 +210,21 @@
   <script>
     AOS.init();
   </script>
+  <script src="app.js"></script>
   <script>
-    window.onscroll = function() {myFunction()};
+  window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-  </script>
+    var header = document.getElementById("navbar");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
     <script>
       window.onscroll = function() {myFunction()};
   
