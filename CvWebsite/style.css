@@ -138,11 +138,12 @@ overflow: hidden;
 background-color: rgba(255, 255, 255, .15);
 backdrop-filter: blur(5px);
 
+
 }
 
 p {
-margin-left: 5px;
-margin-right: 5px;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 .footer-link-face:hover {
@@ -406,6 +407,11 @@ transition: all 0.3s ease-in-out 0s;
 @media only screen and (max-width:1230px) { 
     .scrolling-box {
         padding: 0 20px;
+    }
+
+    .about-me {
+        justify-content: center;
+        text-align: center;
     }
 }
 #generic_price_table_home{
