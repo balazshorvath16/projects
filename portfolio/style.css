@@ -389,6 +389,7 @@ nav {
 
 .header-arrow {
 	text-align: right;
+	color: white;
 	z-index: 100;
 	transition: 0.90s;
 	-webkit-transition: 0.70s;
