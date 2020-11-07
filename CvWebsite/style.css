@@ -75,7 +75,6 @@ body {
  }
 
  .scrolling-box {
-     overflow-y: scroll;
      scroll-behavior: smooth;
  
  }
