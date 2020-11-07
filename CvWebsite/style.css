@@ -402,6 +402,12 @@ transition: all 0.3s ease-in-out 0s;
 }
 @media (min-width: 1200px) {
 }
+
+@media only screen and (max-width:1230px) { 
+    .scrolling-box {
+        padding: 0 20px;
+    }
+}
 #generic_price_table_home{
 font-family: 'Raleway', sans-serif;
 }
