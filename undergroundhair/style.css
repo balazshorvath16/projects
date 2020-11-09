@@ -2,16 +2,24 @@
     font-family: "Open Sans",Arial,Helvetica,sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 h1 {
     font-family: 'Montserrat';
     text-align: center;
     color: white;
+    
 }
 
 .s1 {
     background: url(homebg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    transition-delay: 0.3s;
 }
 
 .s2 {
@@ -23,27 +31,41 @@ h1 {
     color: white;
     overflow-y: scroll;
     justify-content: space-between;
+    z-index: 1;
+    overflow: hidden;
+    transition-delay: 0.3s;
 }
 
 .s2 p {
     margin: 0 30px ;
     font-size: larger;
     display: flex;
-    
+    z-index: 1;
+    overflow: hidden;
+    transition-delay: 0.3s;
 }
 
 .s3 {
     background: url(sc3bg.jpeg);
     display: flex;
     flex-direction: column;
+    z-index: 1;
+    overflow: hidden;
+    transition-delay: 0.3s;
 }
 
 .s4 {
     background: url(sc3bg.jpg);
+    z-index: 1;
+    overflow: hidden;
+    transition-delay: 0.3s;
 }
 
 .s5 {
     background: url(sc4bg.jpg);
+    z-index: 1;
+    overflow: hidden;
+    transition-delay: 0.3s;
 }
 
 .s1 i:hover {
